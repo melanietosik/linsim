@@ -5,15 +5,7 @@ SYNOPSIS
 python sim.py INPUTFILE INPUTWORD
 
 DESCRIPTION
-sim.py is a simple program which computes the Lin similarity of a given input noun and
-all others nouns in the given input file, whereby similarity is defined as the ratio between
-the amount of information in the commonality and the amount of information in the de-
-scription of the two objects [1].
-Dependency triples are extracted from the given input file and stored as features of the
-nouns. The amount of information contained in every single feature is calculated accor-
-dingly. Pairwise similarity is computed between the given input noun and nouns with at
-least one similar feature. The fifty most similar words are displayed in descending order
-of their similarity.
+sim.py is a simple program which computes the Lin similarity of a given input noun and all others nouns in the given input file, whereby similarity is defined as the ratio between the amount of information in the commonality and the amount of information in the description of the two objects [1]. Dependency triples are extracted from the given input file and stored as features of the nouns. The amount of information contained in every single feature is calculated accordingly. Pairwise similarity is computed between the given input noun and nouns with at least one similar feature. The fifty most similar words are displayed in descending order of their similarity.
 
 FILES
 
@@ -52,8 +44,6 @@ Melanie Tosik, tosik@uni-potsdam.de
 
 
 References
-[1] LIN , Dekang: An Information-Theoretic Definition of Similarity. In: In Proceedings of
-the 15th International Conference on Machine Learning, Morgan Kaufmann, 1998, S. 296–304
-[2] NIVRE , Joakim: Data Format. http://nextens.uvt.nl/depparse-wiki/DataFormat, 2007. –
-[Online; accessed 30-09-2013]
+[1] LIN , Dekang: An Information-Theoretic Definition of Similarity. In: In Proceedings of the 15th International Conference on Machine Learning, Morgan Kaufmann, 1998, S. 296–304
+[2] NIVRE , Joakim: Data Format. http://nextens.uvt.nl/depparse-wiki/DataFormat, 2007. – [Online; accessed 30-09-2013]
 [3] http://www.ims.uni-stuttgart.de/forschung/ressourcen/korpora/tiger.html
