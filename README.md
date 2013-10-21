@@ -24,24 +24,33 @@ FILES
 -----
 
 **INPUTFILE**
+
 The input file must be in [CoNLL09 format] [2].
 
 **INPUTWORD**
+
 The input word must be a noun.
 
 EXAMPLE
 -------
 
 **INPUTFILE**
+
 [tiger_ release_ aug07.corrected.16012013.conll09] [3]
 
+
 **INPUTWORD**
+
 Mann
 
+
 **COMMAND**
-    python sim.py tiger_ release_ aug07.corrected.16012013.conll09 Mann
+
+    $ python sim.py tiger_ release_ aug07.corrected.16012013.conll09 Mann
+    
 
 **OUTPUT**
+
     Mensch
     Frau
     Teil
