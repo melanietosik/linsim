@@ -9,12 +9,12 @@ sim.py - computes Lin similarity of a given noun and all other nouns in a given 
 SYNOPSIS
 --------
 
-python sim.py INPUTFILE INPUTWORD
+`python sim.py INPUTFILE INPUTWORD`
 
 DESCRIPTION
 -----------
 
-sim.py is a simple program which computes the [Lin similarity] [1] of a given input noun and all others nouns in the given input file, whereby similarity is defined as
+`sim.py` is a simple program which computes the [Lin similarity](http://webdocs.cs.ualberta.ca/~lindek/papers/sim.pdf) of a given input noun and all others nouns in the given input file, whereby similarity is defined as
 
 > the ratio between the amount of information in the commonality and the amount of information in the description of the two objects.
 
@@ -25,7 +25,7 @@ FILES
 
 **INPUTFILE**
 
-The input file must be in [CoNLL09 format] [2].
+The input file must be in [CoNLL09 format](http://nextens.uvt.nl/depparse-wiki/DataFormat).
 
 **INPUTWORD**
 
@@ -36,7 +36,7 @@ EXAMPLE
 
 **INPUTFILE**
 
-[tiger_ release_ aug07.corrected.16012013.conll09] [3]
+[tiger_ release_ aug07.corrected.16012013.conll09](http://www.ims.uni-stuttgart.de/forschung/ressourcen/korpora/tiger.html)
 
 
 **INPUTWORD**
@@ -66,8 +66,3 @@ Mann
 AUTHOR
 ------
 Melanie Tosik, tosik@uni-potsdam.de
-
-
-[1]: http://webdocs.cs.ualberta.ca/~lindek/papers/sim.pdf
-[2]: http://nextens.uvt.nl/depparse-wiki/DataFormat
-[3]: http://www.ims.uni-stuttgart.de/forschung/ressourcen/korpora/tiger.html
